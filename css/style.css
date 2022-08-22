@@ -20,3 +20,13 @@ body {
     margin: 0 auto;
     padding: 20px;
 }
+
+.flex-index {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-index img{
+    padding: 5px;
+}

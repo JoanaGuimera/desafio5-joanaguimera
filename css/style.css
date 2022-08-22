@@ -8,5 +8,15 @@
 
 h1 {
     font-family: 'DynaPuff', cursive;
-    color: aquamarine;
+    color: rgb(202, 11, 240);
+}
+
+body {
+    background-color: rgb(223, 218, 218);
+}
+
+.hola-mundo {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
 }

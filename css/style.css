@@ -30,3 +30,9 @@ body {
 .flex-index img{
     padding: 5px;
 }
+
+@media (max-width: 700px) {
+    body {
+        background-color: blueviolet;
+    }
+}

@@ -9,6 +9,7 @@
 h1 {
     font-family: 'DynaPuff', cursive;
     color: rgb(202, 11, 240);
+    background-color: bisque;
 }
 
 body {
@@ -21,15 +22,33 @@ body {
     padding: 20px;
 }
 
+.hola-mundo img {
+    justify-content: center;
+}
+
 .flex-index {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.flex-index img{
+.flex-index img,
+.hola-mundo img {
     padding: 5px;
+    box-shadow: 0px 15px 25px;
 }
+
+.flex-index img:hover {
+    border-radius: 40px;
+    transition: .3s;
+}
+
+h1:hover {
+    color: aliceblue;
+    background-color: rgb(99, 44, 251);
+}
+
+
 
 @media (max-width: 700px) {
     body {
